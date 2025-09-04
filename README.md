@@ -1,4 +1,59 @@
-# Welcome to your Lovable project
+# Prompt Enhancer
+
+A **minimal, modern web application** that enhances image and video prompts using the OpenRouter AI API.
+
+## Features
+
+* **Mode Selection:** Choose between Image or Video prompt enhancement.
+* **AI-Powered Enhancement:** Uses OpenRouter's DeepSeek model to refine and enrich user prompts.
+* **Download Enhanced Prompt:** Save generated prompts as `.txt` files.
+* **Clean Design:** White and green minimal interface with smooth interactions.
+* **Client-Side API Key:** Enter your OpenRouter API key securely, with optional local storage.
+
+## Installation
+
+```
+# Clone the repository
+git clone <your-repo-url>
+
+# Navigate to the project directory
+cd prompt-enhancer
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+Open your browser at [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+1. Select **Images** or **Video**.
+2. Enter your base prompt.
+3. Paste your OpenRouter API key.
+4. Click **Enhance** to generate the improved prompt.
+5. Optionally, click **Save as .txt** to download the result.
+
+## Security Note
+
+⚠️ **Do not hardcode your API key in production.** Use serverless functions or a backend to proxy requests.
+
+## Dependencies
+
+* React
+* Tailwind CSS (for styling)
+
+## License
+
+MIT License
+
+---
+
+Made with ❤️ for AI prompt enhancement.
+
+# Lovable project
 
 ## Project info
 
